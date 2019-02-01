@@ -14,7 +14,8 @@ public class Student {
  
     private String name;
     private int id;
-    
+    private int DOB;
+    private int maxHours;
    
     public Student()
     {
@@ -43,6 +44,17 @@ public class Student {
     {
            return this.id;
     }
-            
+      public void setDOB(int givenDOB){
+          this.DOB = givenDOB;
+      }    
+      public int getDOB(){
+          return this.DOB;
+      }
+       public void setmaxHours(int givenmaxHours){
+          this.maxHours = givenmaxHours;
+      }    
+      public int getmaxHours(){
+          return this.maxHours;
+      }
     
 }
